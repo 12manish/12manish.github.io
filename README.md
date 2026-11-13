@@ -25,3 +25,14 @@ The contact form opens the user's email client and does not submit to a server. 
 ## Local testing
 
 Run `python -m http.server 8000` and open `http://localhost:8000`. You can also open `index.html` directly. The live GitHub gallery needs internet access.
+
+
+## November 2026 portfolio update
+
+- Updated hero with 1,500+ academic projects, 8 real-world projects, and 6 months of teaching (owner-supplied claims).
+- Added detailed Core Skills section for Tableau, Power BI, R, Python, machine learning, deep learning, image processing and n8n.
+- Added Smart India Hackathon 2025 Team TigerBytes / Aqua Genesis case-study section based on the supplied presentation (PS 25067). Runner-up status and location are owner-reported and not independently substantiated by that slide deck.
+- Preserved existing GitHub project gallery, resume downloads and static email/WhatsApp contact workflow.
+
+### Updating the deployed site
+Upload the replacement `index.html` to the repository root via Add file > Upload files (or edit via GitHub). Keep the `assets` folder and `github-projects.html` unchanged. Commit to `main`; GitHub Pages redeploys automatically. To update all contents, upload the extracted folder contents, not the ZIP.
